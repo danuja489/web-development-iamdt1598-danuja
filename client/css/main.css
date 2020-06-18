@@ -1,0 +1,210 @@
+*{font-family: 'Roboto', sans-serif;}
+a{text-decoration: none;color: black}
+a:hover{text-decoration: none;}
+img{max-width: 100%;}
+header{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+._site-logo{
+    max-width: 85px;
+}
+._btn{
+    display: inline-block;
+    background: #fcc123;
+    padding: 6px 24px;
+    border-radius: 14px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+._btn:hover{
+    padding: 6px 30px;
+    color: white;
+
+}
+._btn.black{
+    background: black;
+    color: white;
+}
+._bold{
+    font-weight: 700;
+}
+
+.home-slider{
+    position: relative;
+}
+.home-slider .owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 18px;
+    left: 0;
+    text-align: center;
+    z-index: 3;
+    padding: 11px;
+}
+.home-slider .owl-dots button{
+    display: inline-block;
+    padding: 4px 6px!important;
+    background: rgba(255, 255, 255, 0.85);
+    margin: 0 3px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+.home-slider .owl-dots button.active{
+    background: white;
+    padding: 4px 9px!important;
+}
+
+.home-slider img{
+    width: 100%;
+}
+.home-row-1,.home-row-3, .t-row-1, .t-row-2,.contact-row-a{
+    padding: 56px 14px;
+}
+.home-row-1 ._card{
+    position: relative;
+    z-index: 3;
+}
+.home-row-1 ._card aside{
+    position: absolute;
+    width: 100%;
+    bottom: 14px;
+    left: 0;
+    text-align: center;
+}
+.home-row-2{
+    padding-bottom: 56px;
+}
+.home-row-2 ._card{
+    position: relative;
+}
+.home-row-2 ._card.first{
+    text-transform: uppercase;
+    background: #f4f4f4;
+}
+.home-row-2 ._card .designer{
+    background: #dd0b26;
+    color: white;
+    padding: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    font-size: 12px;
+    min-width: 230px;
+}
+.home-row-2 ._card .designer .profile img{
+    max-width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.home-row-2 ._card.first h2{
+    font-weight: 900;
+    font-size: 50px;
+}
+.home-row-2 ._card.first span{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.home-row-3 h5 span{
+    font-size: 96px;
+    font-weight: 900;
+    margin: 0;
+}
+.home-row-3 h5 span:first-child{
+    color: #d52627;
+}
+.home-row-3 h5 span:nth-child(2){
+    color: #0455a4;
+}
+.home-row-3 h5 span:nth-child(3){
+    color: #fbbc05;
+}
+.home-row-3 h5 span:last-child{
+    color: #34a752;
+}
+.home-row-3 h6{
+    font-size: 56px;
+    margin: 0;
+}
+.home-row-3 p{
+    font-size: 26px;
+    line-height: 1.5em;
+    margin: 24px auto 0;
+    max-width: 920px;
+
+}
+footer{
+    padding: 0 0 12px;
+}
+footer .top-border{
+    padding: 7px;
+    background: rgb(213,38,39);
+    background: linear-gradient(90deg, rgba(213,38,39,1) 25%, rgba(213,38,39,1) 25%, rgba(4,85,164,1) 25%, rgba(4,85,164,1) 50%, rgba(251,188,5,1) 50%, rgba(251,188,5,1) 75%, rgba(52,167,82,1) 75%, rgba(52,167,82,1) 100%);
+    margin-bottom: 56px;
+}
+footer .row-1{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+footer .logo img{
+    max-width: 160px;
+}
+
+/*Inner pages*/
+.inner-banner{
+    background: rgb(4,85,164);
+    background: linear-gradient(34deg, rgba(4,85,164,1) 0%, rgba(10,219,221,1) 86%);
+    padding: 56px;
+    text-align: center;
+}
+.inner-banner h1{
+    color: white;
+    font-weight: 900!important;
+    text-transform: uppercase;
+}
+.t-row-1 .col-lg-4{
+    padding: 15px;
+}
+
+.t-row-1 ._card{
+    border: 1px solid rgba(0,0,0,0.1);
+    height: 100%;
+    padding: 18px;
+    text-align: center;
+}
+.t-row-1 ._card span{
+    margin: 0 auto 14px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    font-size: 36px;
+    border-radius: 100%;
+}
+.t-row-1 ._card .author{
+    font-style: italic;
+    font-weight: 700;
+}
+.t-row-1 > div:nth-child(4n+0) span{
+    background: rgb(4,85,164);
+    background: linear-gradient(34deg, rgba(4,85,164,1) 0%, rgba(10,219,221,1) 86%);
+}
+.t-row-1 > div:nth-child(4n+1) span{
+    background: rgb(213,38,39);
+    background: linear-gradient(36deg, rgba(213,38,39,1) 0%, rgba(235,218,28,1) 86%);
+}
+.t-row-1 > div:nth-child(4n+2) span{
+    background: rgb(52,167,82);
+    background: linear-gradient(36deg, rgba(52,167,82,1) 0%, rgba(123,214,22,1) 86%);
+}
+.t-row-1 > div:nth-child(4n+3) span{
+    background: rgb(213,38,39);
+    background: linear-gradient(36deg, rgba(213,38,39,1) 0%, rgba(213,38,159,1) 86%);
+}
